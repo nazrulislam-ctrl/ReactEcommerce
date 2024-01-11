@@ -35,7 +35,7 @@ function Navbar() {
     ]
   return (
     <>
-      <div className={`navbar ${isSticky?"bg-blue-400 shadow-blue-800 transition-all duration-100":" "} flex justify-between sticky top-0 z-10 bg-white text-black`}>
+      <div className={`navbar ${isSticky?"bg-blue-400 shadow-blue-800 transition-all duration-75":" "} flex justify-between sticky top-0 z-10 bg-white text-black`}>
         <div className="flex ">
           <a className="btn btn-ghost text-xl">Naz Store</a>
         </div>
