@@ -4,7 +4,7 @@ function Card({ cardInfo }) {
   const {title, thumbnail, price, category, id, rating, stock, discountPercentage } = cardInfo;
   return (
     <>
-      <div className="card w-72  bg-base-100 shadow-xl ">
+      <div className="card w-72  bg-base-200 shadow-xl ">
         <figure>
           <img className="w-[300px] h-[200px]" src={thumbnail} alt={title} />
         </figure>

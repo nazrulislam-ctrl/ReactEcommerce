@@ -19,7 +19,7 @@ function Shop() {
 
   return (
     <>
-      <div className="flex justify-center flex-wrap gap-3 p-4 bg-slate-200">
+      <div className="flex justify-center flex-wrap gap-3 p-4 bg-orange-100">
         {loading?(<span className="loading loading-spinner text-warning"></span>):(
           <>
           {allCard.map((shop, i) => (
