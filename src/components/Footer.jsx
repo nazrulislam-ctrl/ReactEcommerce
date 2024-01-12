@@ -17,7 +17,7 @@ function Footer() {
     ]
   return (
     <>
-      <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded ">
+      <footer className="footer footer-center p-8 bg-base-200 text-base-content">
         <nav className="grid grid-flow-col gap-4">
           {footerList.map((footer, i)=>( <ul key={i}>
             <Link to={footer.url}>{footer.name}</Link>
